@@ -24,6 +24,8 @@ body {
 
 .sidebar {
   width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
   flex-shrink: 0;
 }
 
@@ -47,6 +49,9 @@ ul {
 }
 
 .card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
   width: 300px;
   flex-shrink: 0;
   padding: 16px
@@ -56,16 +61,4 @@ ul {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-}
-
-.sidebar {
-  width: 300px;
-  background: royalblue;
-  box-sizing: border-box;
-}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
 }
