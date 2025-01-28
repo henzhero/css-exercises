@@ -19,6 +19,7 @@ body {
 
 .content {
   display: flex;
+  flex: 1;
 }
 
 .sidebar {
@@ -35,6 +36,20 @@ ul {
   font-size: 24px;
   color: white;
   text-decoration: none;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.card {
+  width: 300px;
+  flex-shrink: 0;
+  padding: 16px
 }
 
 .footer {
